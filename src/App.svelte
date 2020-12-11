@@ -15,7 +15,7 @@
 </script>
 
 <div class="wrapper">
-  <Header on:nav={handleNav} background="#c80007" />
+  <Header on:nav={handleNav} background="#333" />
   <main>
     <Section boxed background="white">
       <img
