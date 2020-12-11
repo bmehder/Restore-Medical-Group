@@ -123,10 +123,10 @@
               <img
                 src="https://source.unsplash.com/random/400x400?4"
                 alt="before" />
-              <caption>
+              <aside>
                 6.5CM wide persistent wound unable to be healed with traditional
                 treatments.
-              </caption>
+              </aside>
             </div>
           </div>
           <div>
@@ -135,9 +135,9 @@
               <img
                 src="https://source.unsplash.com/random/400x400?5"
                 alt="after" />
-              <caption>
+              <aside>
                 After 7 weeks of treatment using Restore’s Wound Care Protocol.
-              </caption>
+              </aside>
             </div>
           </div>
         </Grid>
@@ -148,7 +148,7 @@
               <img
                 src="https://source.unsplash.com/random/400x400?6"
                 alt="before" />
-              <caption>Picture taken 2 weeks into treatment</caption>
+              <aside>Picture taken 2 weeks into treatment</aside>
             </div>
           </div>
           <div>
@@ -157,7 +157,7 @@
               <img
                 src="https://source.unsplash.com/random/400x400?7"
                 alt="after" />
-              <caption>Picture taken 3-4 weeks into treatment</caption>
+              <aside>Picture taken 3-4 weeks into treatment</aside>
             </div>
           </div>
         </Grid>
@@ -168,7 +168,7 @@
               <img
                 src="https://source.unsplash.com/random/400x400?8"
                 alt="before" />
-              <caption>Two year old sacrum wound starting at 5.5CM</caption>
+              <aside>Two year old sacrum wound starting at 5.5CM</aside>
             </div>
           </div>
           <div>
@@ -177,9 +177,7 @@
               <img
                 src="https://source.unsplash.com/random/400x400?9"
                 alt="after" />
-              <caption>
-                Reduced to 3.5CM in 4 weeks. Still in treatment.
-              </caption>
+              <aside>Reduced to 3.5CM in 4 weeks. Still in treatment.</aside>
             </div>
           </div>
         </Grid>
@@ -190,13 +188,13 @@
               <img
                 src="https://source.unsplash.com/random/400x400?9"
                 alt="before" />
-              <caption>
+              <aside>
                 Two wounds being simultaneously treated on the left gluteus.
                 Persistent wound for nearly 6 months unable to be treated with
                 conventional treatment. In this first picture the little arrow
                 is pointing to a tunnel wound that is 6 centimeters deep and 1CM
                 wide at entry.. The second wound is roughly 15CM square.
-              </caption>
+              </aside>
             </div>
           </div>
           <div>
@@ -205,12 +203,12 @@
               <img
                 src="https://source.unsplash.com/random/400x400?10"
                 alt="after" />
-              <caption>
+              <aside>
                 The second picture shows the arrow is pointing to that same
                 wound within several weeks of treatment. Estimated to be nearly
                 closed to 60%. The second wound has an obvious big change and
                 progressing nicely towards full healing.
-              </caption>
+              </aside>
             </div>
           </div>
         </Grid>
@@ -240,7 +238,7 @@
     text-align: center;
     font-size: 150%;
   }
-  caption {
+  aside {
     display: block;
     background: #eee;
     text-align: center;
