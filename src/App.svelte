@@ -123,7 +123,7 @@
 
     {#if page === 'Case Studies'}
       <div transition:fade={{ easing: quintOut }}>
-        <Section boxed background="white" padding="0.5em 2em 0em">
+        <Section boxed background="white" padding="0.5em 2em 4em">
           <h3 style="text-align:center;">Case Studies</h3>
           <Grid columns="1fr 1fr" gap="2em">
             <div>
