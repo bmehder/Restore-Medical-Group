@@ -18,13 +18,13 @@
 <div class="wrapper">
   <Header on:nav={handleNav} background="#333" />
   <main>
-    <Section boxed background="white">
-      <img
-        src="/header-restore-medical-group.jpg"
-        alt="Header - Restore Medical Group" />
-    </Section>
     {#if page === 'Home'}
       <div transition:fade={{ easing: quintOut }}>
+        <Section boxed background="white">
+          <img
+            src="/header-restore-medical-group.jpg"
+            alt="Header - Restore Medical Group" />
+        </Section>
         <Section background="white" padding="0.5em 2em 0em" boxed>
           <h3>Welcome to a revolution in chronic wound care.</h3>
           <Grid columns="1fr 1fr" gap="2em">
