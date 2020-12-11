@@ -2,7 +2,7 @@
   export let heading;
   export let subtitle = "Lorem ipsum dolor sit amet.";
   export let href = "";
-  export let src = "https://source.unsplash.com/random/300x250";
+  export let src;
   export let buttonText = "Learn More";
   export let swap = false;
 </script>
@@ -12,10 +12,14 @@
     {#if heading}
       <h3>{heading}</h3>
     {/if}
-    <p>{subtitle}</p>
+    <p>
+      {@html subtitle}
+    </p>
     <a {href} target="_blank"> {buttonText} </a>
   </div>
-  <figure class:swap><img {src} alt="placeholder" /></figure>
+  {#if src}
+    <figure class:swap><img {src} alt="placeholder" /></figure>
+  {/if}
 </article>
 
 <style>
@@ -23,7 +27,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 600px;
+    width: 100%;
+    max-width: 500px;
     height: 250px;
     margin: 2em auto;
     padding: 1em 0;
@@ -55,8 +60,8 @@
   }
   h3 {
     margin: 0;
-    font-size: 1.5em;
-    line-height: 1em;
+    font-size: 1.25em;
+    line-height: 1.25em;
     color: gold;
   }
   p {
@@ -70,7 +75,7 @@
   a {
     display: block;
     width: 100%;
-    padding: 1em 2em;
+    padding: 0.8em 1em;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;

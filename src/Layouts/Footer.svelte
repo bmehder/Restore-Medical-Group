@@ -14,6 +14,5 @@
     background: darkorange;
     color: white;
     text-align: center;
-    font-weight: 600;
   }
 </style>
