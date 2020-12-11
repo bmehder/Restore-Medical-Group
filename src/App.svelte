@@ -1,5 +1,6 @@
 <script>
   import { fade } from "svelte/transition";
+  import { quintOut } from "svelte/easing";
   import Header from "./Layouts/Header.svelte";
   import Section from "./Layouts/Section.svelte";
   import Grid from "./Layouts/Grid.svelte";
@@ -23,7 +24,7 @@
         alt="Header - Restore Medical Group" />
     </Section>
     {#if page === 'Home'}
-      <div transition:fade>
+      <div transition:fade={{ easing: quintOut }}>
         <Section background="white" padding="0.5em 2em 0em" boxed>
           <h3>Welcome to a revolution in chronic wound care.</h3>
           <Grid columns="1fr 1fr" gap="2em">
@@ -121,8 +122,8 @@
     {/if}
 
     {#if page === 'Case Studies'}
-      <div transition:fade>
-        <Section boxed background="white" padding="2em">
+      <div transition:fade={{ easing: quintOut }}>
+        <Section boxed background="white" padding="0.5em 2em 0em">
           <h3 style="text-align:center;">Case Studies</h3>
           <Grid columns="1fr 1fr" gap="2em">
             <div>
@@ -226,8 +227,8 @@
     {/if}
 
     {#if page === 'Contact'}
-      <div transition:fade>
-        <Section boxed background="white" padding="2em">
+      <div transition:fade={{ easing: quintOut }}>
+        <Section boxed background="white" padding="0.5em 2em 0em">
           <Flex direction="column" justify="center" align="center">
             <CTA
               heading="Schedule an Appointment"
